@@ -1,3 +1,26 @@
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+.navbar{
+	background-color: #23415C;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a{
+	color: #D5D5D5
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+	color: #D5D5D5
+}
+
 section {
  	position: relative;
  	width: 100%;
@@ -13,7 +36,7 @@ section {
  	height: 100%;
 }
 #home {
-	background-image: url('sky_blue.jpg');
+	background-image: url('sky_blue.jpg') no-repeat center center fixed;
  	position: fixed;
  	display: table;
  	top: 0;
@@ -34,6 +57,10 @@ section {
 	vertical-align: middle;
 }
 
+.landing-text h1{
+	font-size: 500%;
+	font-weight: 700;
+}
 
 /*--- iOS Fixed Image Fix
 figure {
