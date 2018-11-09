@@ -1,14 +1,3 @@
-﻿
-
-
-
-
-
-
-
-
-
-/*--- iOS Landing Page Fix
 section {
  	position: relative;
  	width: 100%;
@@ -44,7 +33,7 @@ section {
 	text-align: center;
 	vertical-align: middle;
 }
---*/
+
 
 /*--- iOS Fixed Image Fix
 figure {
@@ -74,5 +63,3 @@ figure {
           transform: translateZ(0);
 	will-change: transform;
 }
---*/
-
