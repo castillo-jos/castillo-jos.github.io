@@ -1,3 +1,4 @@
+<style>
 #colorchange {
       animation: colorchange 50s; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
@@ -21,3 +22,4 @@
       75%  {background: green;}
       100% {background: red;}
  }
+ </style>
